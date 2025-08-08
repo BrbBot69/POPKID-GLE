@@ -3,13 +3,13 @@ require("dotenv").config();
 
 const config = {
   // 🧠 Session & Identity
-  SESSION_ID: process.env.SESSION_ID || "Popkidmd$MLJjtNih",
+  SESSION_ID: process.env.SESSION_ID || "POPKID;;;f9xHiTAC#0WSfz4zwlQQEmBiPnoPNs2SMziptNvGCRAjhhgPOQYs",
   PREFIX: process.env.PREFIX || '.',
-  BOT_NAME: process.env.BOT_NAME || "POPKID GLE",
+  BOT_NAME: process.env.BOT_NAME || "Ballas 𝗑ᴾᴿᴼ",
   BOT: process.env.BOT || "hello 👋",
   STATUS_READ_MSG: "👋 Hello! I saw your status.",
-  NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| popkid",
-  CAPTION: process.env.CAPTION || "ᴘᴏᴡᴇʀᴇᴅ by popkid",
+  NEW_CMD: process.env.NEW_CMD || "ᴀᴅᴅᴠᴀʀ\n│ sᴜᴅᴏ\n| Ballas 𝗑ᴾᴿᴼ",
+  CAPTION: process.env.CAPTION || "ᴘᴏᴡᴇʀᴇᴅ by Ballas 𝗑ᴾᴿᴼ",
   AUTO_STATUS_REPLY: false,
   AUTO_STATUS_REPLY_MSG: "👋 Hello! I saw your status.",
   // 🤖 GPT/AI API KEYS
@@ -23,21 +23,21 @@ const config = {
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN === 'true',
   AUTO_BIO: process.env.AUTO_BIO === 'true',
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'true',
-  AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'true',
+  AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'false',
   AUTO_STICKER: process.env.AUTO_STICKER === 'true',
   AUTO_READ: process.env.AUTO_READ === 'true',
-  AUTO_TYPING: process.env.AUTO_TYPING === 'true',
-  AUTO_RECORDING: process.env.AUTO_RECORDING === 'true',
-  AUTO_REACT: process.env.AUTO_REACT === 'true',
+  AUTO_TYPING: process.env.AUTO_TYPING === 'false',
+  AUTO_RECORDING: process.env.AUTO_RECORDING === 'false',
+  AUTO_REACT: process.env.AUTO_REACT === 'false',
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'true',
   AUTO_BLOCK: process.env.AUTO_BLOCK !== 'false', // true by default
 
   // 📦 Extra Features
-  ANTI_LEFT: process.env.ANTI_LEFT === 'true',
+  ANTI_LEFT: process.env.ANTI_LEFT === 'false',
   MASS_TARGET_JID: '254111385747@s.whatsapp.net',
   ANTILINK: process.env.ANTILINK === 'true',
-  ANTI_DELETE: process.env.ANTI_DELETE === 'true',
-  CHAT_BOT: process.env.CHAT_BOT === 'true',
+  ANTI_DELETE: process.env.ANTI_DELETE === 'false',
+  CHAT_BOT: process.env.CHAT_BOT === 'false',
   CHAT_BOT_MODE: process.env.CHAT_BOT_MODE || "public",
   LYDEA: process.env.LYDEA === 'true',
   REJECT_CALL: process.env.REJECT_CALL === 'true',
@@ -49,9 +49,9 @@ const config = {
   DELETED_MESSAGES_CHAT_ID: process.env.DELETED_MESSAGES_CHAT_ID || "254111385747@s.whatsapp.net",
 
   // 👑 Owner & Permissions
-  OWNER_NAME: process.env.OWNER_NAME || "❤️popkid🙊",
-  OWNER_NUMBER: process.env.OWNER_NUMBER || "254111385747",
-  SUDO_NUMBER: process.env.SUDO_NUMBER || "254111385747",
+  OWNER_NAME: process.env.OWNER_NAME || "♤𝗑ᴾᴿᴼ♧",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "27767494368",
+  SUDO_NUMBER: process.env.SUDO_NUMBER || "27767494368",
 
   // 💚 Auto react emoji
   AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚',
